@@ -1,0 +1,23 @@
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.email-button {
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-7);
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-2);
+    border: none;
+    border-radius: var(--radius-2);
+    padding: 19px 24px;
+}
+
+.change-user-button {
+    color: var(--color-grey-7);
+    background-color: var(--color-grey-7-alpha8);
+    border: none;
+    border-radius: var(--radius-2);
+    padding: 19px 25px;
+}

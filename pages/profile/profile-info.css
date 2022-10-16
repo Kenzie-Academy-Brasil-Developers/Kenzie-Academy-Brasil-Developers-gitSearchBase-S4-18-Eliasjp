@@ -1,0 +1,30 @@
+.user-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-avatar {
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--color-brand-2);
+    border-radius: 100%;
+}
+
+.div-user {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.user-login {
+    color: var(--color-grey-7);
+    font-weight: var(--weight-1);
+}
+
+.user-bio {
+    font-size: var(--font-size-4);
+    font-weight: var(--weight-3);
+    color: var(--color-grey-7-alpha50);
+}

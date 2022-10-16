@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/styles/titles.css" />
+
+    <link rel="stylesheet" href="/pages/home/index.css" />
+    <link rel="stylesheet" href="/pages/home/site-description.css" />
+    <link rel="stylesheet" href="/pages/home/git-search.css" />
+    <link rel="stylesheet" href="/pages/home/git-search-container.css" />
+    <link rel="stylesheet" href="/pages/home/search-user.css" />
+    <link rel="stylesheet" href="/pages/home/user-container.css" />
+    <link rel="stylesheet" href="/pages/home/render-recently.css" />
+
+    <script defer src="/pages/home/render-recently.js"></script>
+    <script defer src="/pages/home/index.js"></script>
+    <script defer src="/pages/home/found-recently.js"></script>
+    <script defer src="/pages/home/profile-recently.js"></script>
+
+    <title>Git Search</title>
+  </head>
+
+  <body>
+
+    <main>
+
+      <section class="site-description">
+    
+        <div class="git-search">
+          <div class="git-search-container">
+            <h1 class="git-search-title">Git Search</h1>
+            <h3 class="git-search-description">Encontre e se conecte com profissionais de forma rápida e fácil</h3>
+            <section class="foundRecently">
+              <p>Achados Recentemente:</p>
+              <ul class="list-recently"></ul>
+            </section>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="search-user">
+        <div class="user-container">
+          <h3>Procurar por um usuário</h3>
+          <form class="send-username" id="send-username">
+            <label class="username-label" id="username-label">Usuário github</label>
+            <input class="username-input" name="username" placeholder="Digite um usuário do github aqui..." required="true">
+          </form>
+          <button class="send-username-button send-username-button-deactived" form="send-username"><div class="text-and-animation text-and-animation-deactived">Ver perfil do github</div></button>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+
+</html>

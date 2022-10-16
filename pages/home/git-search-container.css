@@ -1,0 +1,17 @@
+.git-search-description {
+    margin-top: 37px;
+}
+
+.foundRecently {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.foundRecently > p {
+    color: var(--color-grey-7);
+    font-weight: var(--weight-3);
+    font-size: var(--font-size-4);
+    margin-right: 19px;
+}

@@ -1,0 +1,79 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-username {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.username-label {
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-3);
+    color: var(--color-grey-7);
+}
+
+.username-input {
+    margin-top: 16px;
+    width: 316px;
+    height: 38px;
+    background-color: var(--color-grey-1);
+    border: 1px solid var(--color-grey-7-alpha12);
+    border-radius: var(--radius-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.invalid-user {
+    border-color: var(--color-brand-1);
+}
+
+.username-invalid {
+    margin-top: 16px;
+    font-size: var(--font-size-5);
+    font-weight: var(--weight-4);
+    color: var(--color-brand-1);
+}
+
+.send-username-button {
+    margin-top: 20px;
+    background-color: var(--color-brand-1);
+    border: 1px solid transparent;
+    border-radius: var(--radius-3);
+    padding: 10px 93px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-and-animation {
+    color: var(--color-grey-7);
+}
+
+.text-and-animation-keyframes {
+    width: 10px;
+    height: 10px;
+    border: 10px solid transparent;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    animation: loading 2s ease-in-out infinite;
+}
+
+@keyframes loading {
+    from {transform: rotate(0deg);}
+
+    to {transform: rotate(360deg);}
+}
+
+.send-username-button-deactived {
+    background-color: var(--color-brand-1-alpha40);
+}
+
+.text-and-animation-deactived {
+    color: var(--color-grey-7-alpha35);
+}

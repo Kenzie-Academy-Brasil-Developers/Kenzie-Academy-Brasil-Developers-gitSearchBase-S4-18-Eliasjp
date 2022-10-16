@@ -1,1 +1,14 @@
-/* Desenvolva sua estilização aqui...*/
+html, body {
+    background-color: #000;
+    height: 100%;
+}
+
+main {
+    max-width: 1920px;
+    height: 100%;
+    background-color: var(--color-grey-2);
+    border-radius: var(--radius-1);
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}

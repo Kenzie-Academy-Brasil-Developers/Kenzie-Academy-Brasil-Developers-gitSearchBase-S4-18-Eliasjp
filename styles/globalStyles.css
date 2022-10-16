@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-familiy);
 }
 
 :root{
     --color-brand-1: #C2255C;
+    --color-brand-1-alpha40: rgba(194, 37, 92, 0.4);
     --color-brand-2: #D6336C;
     --color-grey-1:  #191C1F;
     --color-grey-2:  #212529;
@@ -13,5 +17,32 @@
     --color-grey-4:  #373B3E;
     --color-grey-6:  #A6A8A9;
     --color-grey-7:  #FFFFFF;
+    --color-grey-7-alpha8: rgba(255, 255, 255, 0.08);
+    --color-grey-7-alpha10: rgba(255, 255, 255, 0.10);
+    --color-grey-7-alpha12: rgba(255, 255, 255, 0.12);
+    --color-grey-7-alpha35: rgba(255, 255, 255, 0.35);
+    --color-grey-7-alpha50: rgba(255, 255, 255, 0.5);
+    --color-grey-7-alpha60: rgba(255, 255, 255, 0.6);
     --color-alert:   #C22554;
+
+    --font-size-1: 2rem; /* 32px */
+    --font-size-2: 1.5rem; /* 24px */
+    --font-size-3: 1.25rem; /* 20px */
+    --font-size-4: 1rem; /* 16px */
+    --font-size-5: 0.875rem; /* 14px */
+    
+    --weight-1: 700;
+    --weight-2: 600;
+    --weight-3: 500;
+    --weight-4: 400;
+
+    --radius-1: 0.75rem; /* 12px */
+    --radius-2: 0.5rem; /* 8rem */
+    --radius-3: 0.25rem; /* 4rem */
+
+    --font-familiy: 'Inter', sans-serif;
+}
+
+button {
+  cursor: pointer;
 }
