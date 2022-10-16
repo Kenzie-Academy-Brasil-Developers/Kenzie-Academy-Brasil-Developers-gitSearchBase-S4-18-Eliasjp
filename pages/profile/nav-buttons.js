@@ -14,7 +14,7 @@ function eventsForNavInfo (){
 
     navChange.addEventListener(`click`, (event) => {
         event.preventDefault()
-        window.location.assign(`/index.html`)
+        window.location.assign(`../../index.html`)
     })
 }
 
