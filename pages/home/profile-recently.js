@@ -14,7 +14,7 @@ function eventListenerButtons (){
         storageUsers.unshift(storageUsers[indexInStorage])
         storageUsers.splice(nextIndexInStorage, 1)
         localStorage.setItem(`recently-found`, JSON.stringify(storageUsers))
-        window.location.assign(`/pages/profile/profile.html`)
+        window.location.assign(`pages/profile/profile.html`)
     }))
 }
 

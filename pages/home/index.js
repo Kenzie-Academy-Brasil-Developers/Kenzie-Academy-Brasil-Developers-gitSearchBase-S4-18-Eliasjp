@@ -55,7 +55,7 @@ async function fetchPage (username){
 
 function checkStatus (userInfo){
         recentlyUsers (userInfo)
-        window.location.assign(`/pages/profile/profile.html`)
+        window.location.assign(`pages/profile/profile.html`)
 }
 
 function buttonType (){
